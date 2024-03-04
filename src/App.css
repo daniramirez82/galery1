@@ -1,6 +1,22 @@
-
-
-div{
-  background-color: red;
+.gallery {
+  max-width: 66rem;
+  display: flex;
+  padding: 20px;
+  gap: 1rem;
 }
 
+.card:nth-child(1) figure img {
+  left: -38rem;
+}
+
+.card:nth-child(2) figure img {
+  left: -16rem;
+}
+
+.card:nth-child(3) figure img {
+  left: -28rem;
+}
+
+.card:nth-child(4) figure img {
+  left: -18rem;
+}

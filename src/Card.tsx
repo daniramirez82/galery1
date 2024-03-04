@@ -5,9 +5,9 @@ interface Props {
 }
 
 function Card(props: Props) {
-  return <div>
-    <figure className="card">
-     <img src= {props.imageDir}></img>
+  return <div className="card">
+    <figure className="card-in">
+     <img className="image" src= {props.imageDir}></img>
     </figure>
   </div>;
 }
